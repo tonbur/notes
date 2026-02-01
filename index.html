@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Библиотека конспектов</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 Библиотека конспектов</h1>
+            <p class="subtitle">Заметки и конспекты по прочитанным книгам</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Поиск по названию или автору...">
+        </div>
+
+        <div class="filter-section">
+            <button id="filterToggle" class="filter-toggle">
+                <span class="filter-icon">⚙️</span>
+                Фильтры
+                <span class="toggle-arrow">▼</span>
+            </button>
+            <div id="filterPanel" class="filter-panel collapsed">
+                <div id="filterCheckboxes" class="filter-checkboxes">
+                    <!-- Чекбоксы будут сгенерированы динамически -->
+                </div>
+            </div>
+        </div>
+
+        <div id="bookGrid" class="book-grid">
+            <!-- Книги будут загружены динамически через JavaScript -->
+            <div class="loading">Загрузка библиотеки...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Персональная библиотека конспектов книг</p>
+        </div>
+    </footer>
+
+    <script src="js/popover.js"></script>
+    <script src="js/library.js"></script>
+</body>
+</html>

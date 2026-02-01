@@ -1,0 +1,11 @@
+[
+    {
+        "id": "39100996",
+        "title": "Высоконагруженные приложения. Программирование, масштабирование, поддержка",
+        "author": "Мартин Клеппман",
+        "cover": "assets/covers/39100996.jpg",
+        "notes": "books/red_kabanchik.md",
+        "dateAdded": "2026-02-01",
+        "tags": ["CS", "System Design"]
+    }
+]
